@@ -14,7 +14,7 @@
 
 /* 1. PROFILE PHOTO — set to a path like "Aset/profile.jpg" to replace the
    hero placeholder, or leave it as "" to keep the placeholder box. */
-const PROFILE_PHOTO = "";
+const PROFILE_PHOTO = "Aset/PP/pp.png";
 
 /* -------------------------------------------------------------------------
    4. PATH-SPECIFIC TAGS  (shown as pill tags under the hero description)
