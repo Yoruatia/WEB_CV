@@ -1,17 +1,3 @@
-/* =========================================================================
-   SITE CONTENT — edit this file to change what shows up on the site.
-   You do NOT need to touch app.js for normal edits.
-
-   RULES OF THUMB:
-   - To ADD an item: copy one { ... } block inside the [ ] list, paste it
-     right after, add a comma between blocks, then change the text.
-   - To REMOVE an item: delete its whole { ... } block (and the comma
-     that separated it from the next one, if any).
-   - Keep the quote marks "" around text. Straight quotes only.
-   - If a section's HTML is deleted from index.html entirely, this file
-     and app.js will simply skip it — nothing else on the page breaks.
-   ========================================================================= */
-
 /* 1. PROFILE PHOTO — set to a path like "Aset/profile.jpg" to replace the
    hero placeholder, or leave it as "" to keep the placeholder box. */
 const PROFILE_PHOTO = "Aset/PP/pp.png";
