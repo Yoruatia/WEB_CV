@@ -114,16 +114,6 @@ const EXPERIENCE = [
 ];
 
 /* -------------------------------------------------------------------------
-   PROJECTS
-   images: list of file paths (case-sensitive — match your real folder/file
-   capitalization exactly, e.g. "Aset/..."). Photos and videos can be mixed
-   freely in the same list and appear as one slider — arrows/dots (or a
-   "3 / 17" counter past 10 items) only move it when clicked, nothing
-   auto-plays between slides. Leave [] to show the emoji icon instead.
-   VIDEOS (.mp4/.webm/.mov/.m4v) autoplay muted & looped once their slide
-   is active — no sound, no controls, sized the same way photos are
-   (scaled to fit, never cropped/stretched) — and pause on any other slide.
-   GIFs already animate on their own as a normal <img>, no extra setup needed.
    ------------------------------------------------------------------------- */
 const PROJECTS = [
   {
@@ -266,7 +256,7 @@ const PROJECTS = [
 const LINKS_ROW = [
   { icon: "linkedin", name: "LinkedIn", url: "https://linkedin.com/in/shendi-ginting" },
   { icon: "email",    name: "Email", url: "mailto:erexo32@gmail.com" },
-  { icon: "cv",       name: "Curriculum Vitae (CV)", url: "CV_Shendi_Moses_Ginting_ATS.pdf", download: true },
+  { icon: "cv",       name: "Curriculum Vitae (CV)", url: "Aset//CV_Shendi Moses Ginting_ATS.pdf", download: true },
   { icon: "github",   name: "GitHub", url: "https://github.com/Yoruatia" },
   { icon: "instagram", name: "Instagram", url: "https://www.instagram.com/erexo_yor/" },
 ];
