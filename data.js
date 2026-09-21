@@ -241,7 +241,7 @@ const PROJECTS = [
 
 const LINKS_ROW = [
   { icon: "linkedin", name: "LinkedIn", url: "https://linkedin.com/in/shendi-ginting" },
-  { icon: "email",    name: "Email", url: "mailto:erexo32@gmail.com" },
+  { icon: "email",    name: "Email to erexo32@gmail.com", url: "mailto:erexo32@gmail.com" },
   { icon: "cv",       name: "Curriculum Vitae (CV)", url: "Aset//CV_Shendi Moses Ginting_ATS.pdf", download: true },
   { icon: "github",   name: "GitHub", url: "https://github.com/Yoruatia" },
   { icon: "instagram", name: "Instagram", url: "https://www.instagram.com/erexo_yor/" },
