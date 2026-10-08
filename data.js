@@ -236,6 +236,24 @@ const PROJECTS = [
   link: "https://lnkd.in/p/gMmY_Zhr",
   linkLabel: "Read more",
   },
+  {
+  id: "Forest-Carbon Analysis", emoji: "🌳", title: "Analisis Deforestasi, Fragmentasi, dan Stok Karbon Hutan Menggunakan R",
+  category: "Geospatial", status: "GeoSoftware #3",
+  images: Array.from({ length: 22 }, (_, i) => `Aset/Hutan/Hutan (${i + 1}).jpg`),
+  desc: "Completed a mini project using R to analyze forest loss, landscape fragmentation, and remaining carbon stock in the Aceh Tamiang-Langkat – East Leuser area, Sumatra (2000–2024).",
+  tech: ["R", "terra", "sf", "landscapemetrics", "ggplot2", "Remote Sensing", "GIS"],
+  overview: "Completed an end-to-end forest monitoring analysis in R for the Aceh Tamiang-Langkat – East Leuser buffer zone of the Leuser Ecosystem, combining three activities: annual deforestation tracking (2000–2024) using Hansen Global Forest Change v1.12, landscape fragmentation analysis for 2002, 2012, and 2022 using landscapemetrics, and 2022 carbon stock estimation from ESA CCI Biomass. The results show 37.9% of the 2000 forest cover (49,803 ha) was lost, forest patches nearly doubled from 3,298 to 5,897, and the remaining forest still stores about 6.69 million tC (24.5 million tCO₂e).",
+  contributions: [
+    "Processed Hansen GFC tree cover and annual loss rasters with terra and sf, testing several canopy-cover thresholds and adopting ≥75% as the forest definition",
+    "Quantified annual deforestation from 2001 to 2024, including total loss, average loss rate (2,075 ha/yr), peak year (2023), and the Puyravaud annual deforestation rate (-1.985%/yr)",
+    "Measured landscape fragmentation using landscapemetrics (NP, PD, AREA_MN, LPI, TCA, AI, DIVISION) with 4-direction connectivity and a 120 m edge depth, comparing 2002, 2012, and 2022",
+    "Estimated 2022 forest carbon stock by masking ESA CCI above-ground biomass to the remaining forest, converting it to tC/ha, classifying low and high carbon zones (35 tC/ha threshold), and calculating CO₂ equivalent",
+    "Visualized deforestation trends, patch distribution, and carbon maps with ggplot2 and gridExtra, and summarized the results as conservation insights"
+  ],
+  stack: "R, terra, sf, dplyr, tidyr, ggplot2, gridExtra, landscapemetrics, Hansen GFC v1.12, ESA CCI Biomass.",
+  link: "https://www.linkedin.com/feed/update/urn:li:activity:7513910481586233344/",
+  linkLabel: "Read more",
+  },
 ];
 
 
